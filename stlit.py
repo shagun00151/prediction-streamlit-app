@@ -6,8 +6,8 @@ Created on Thu Jan  5 15:30:24 2023
 """
 
 import streamlit as st
-import sklearn 
-from sklearn.linear_model import LinearRegression
+
+
 model = LinearRegression()
 st.title('Product Demand Prediction App')
 BP = st.number_input('Base price')
